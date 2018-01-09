@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Free html tries
+	</title>
+</head>
+
+<body>
+<script >
+	 var telebe01=[]
+		var telebe02=[]
+		var telebe03=[]
+		var telebe04=[]
+		var telebeler=[telebe01,telebe02,telebe03,telebe04]
+
+		
+		for(i=0;i<4;i++)
+		{
+			var ad=prompt(i+1+". Telebenin adini daxil edin")
+	        var soyad=prompt(i+1+" Telebenin soyadini daxil edin")
+		    var yas=prompt(i+1+" Telebenin yasini daxil edin")
+
+              telebeler[i].push(ad);
+              telebeler[i].push(soyad);
+              telebeler[i].push(yas);
+
+
+		}
+
+		document.write('<table border="1">')
+		// first row
+			document.write('<tr>')
+			//first column
+				document.write('<td width="150">')
+				document.write('Ad')
+				document.write('</td>')
+			//second column
+				document.write('<td width="150">')
+				document.write('Soyad')
+				document.write('</td>')
+			//third column
+				document.write('<td width="150">')
+				document.write('Yas')
+				document.write('</td>')
+			document.write('</tr>')
+		// second row
+			for(setir=0;setir<4;setir++){
+				document.write('<tr>')
+					for(sutun=0;sutun<3;sutun++){
+						document.write('<td width="150">')
+						document.write(telebeler[setir][sutun])
+						document.write('</td>')
+					}
+				document.write('</tr>')
+			}
+		
+		document.write('</table>')
+		
+</script>
+</body>
+</html>
+
+
+
