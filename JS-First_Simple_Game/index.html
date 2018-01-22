@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple_Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Game Of Chance</h1>
+        <h3>Oyunun qaydalari aşağidaki kimidir</h3>
+        <ul>
+            <li>Kömpüter yaddaşinda 0-la 100 arasinda bir ədəd tutur və bu ədədi siz bilmirsiniz</li>
+            <li>Sizə bu ədədi tapmağiniz üçün 5 şans verilir</li>
+            <li>Hər daxil etdiyiniz ədəd kömpüterin yaddaşindaki ədədlə üst-üstə düşməzsə sizə yeni cəhdiniz qalibsa,istiqamət veriləcək.5 cəhddən birində tapsaniz qalibsiniz</li>
+        </ul>
+        <h4>Rəqəmi Daxil Edin</h4>
+        <input id="number" class="inputInner" type="number" min="1" max="100">
+        <input type="submit" onclick="checker()">
+        <p id="information"></p>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
