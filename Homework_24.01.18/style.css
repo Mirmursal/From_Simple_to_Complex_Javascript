@@ -1,0 +1,49 @@
+body{
+    padding:2%;
+}
+.main{
+   width: 100px;
+   height: 100px;
+   background-color: gray;
+   border:2px solid rgb(53, 51, 51);
+   float:left;
+   margin-right: 1%;
+   margin-bottom: 1%;
+   box-sizing: border-box;
+}
+.main:hover{
+    background-color: whitesmoke;
+}
+.main:hover .inner{
+    color:gray;
+}
+.inner{
+   text-align: center;
+   font-size: 20px;
+   color:whitesmoke;
+   line-height: 65px;
+}
+.forBtn{
+    width: 15%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+.btn{
+    padding: 4px 18px;
+    font-size: 18px;
+    margin-bottom: 2%;
+    background: darkseagreen;
+    color: azure;
+    cursor: pointer;
+    outline:none;
+}
+.btn:hover{
+    background-color: azure;
+    color:darkseagreen;
+}
+.btn:nth-child(1){
+    float: left;
+}
+.btn:nth-child(2){
+    float:right;
+}
