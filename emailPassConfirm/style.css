@@ -1,0 +1,48 @@
+#email{
+    width: 30%;
+    height: 27px;
+    padding-left: 24px;
+}
+#password{
+    width: 30%;
+    height: 27px;
+    padding-left: 24px;
+}
+#save{
+    padding: 0px 22px;
+    font-size: 18px;
+    height: 33px;
+    margin-left: 20px;
+    color: white;
+    background: darkseagreen;
+}
+.wrapper{
+    width:70%;
+    margin:auto;
+    padding-top:50px;
+}
+label{
+    margin:20px;
+}
+.information{
+    width: 65%;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    height: 48px;
+    background: #f9f5f5;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding: 2%;
+    display: none;
+    transition:all ease 0.3s;
+}
+.success{
+    color:green!important;
+    font-size: 30px;
+}
+.error{
+    color:red!important;
+    font-size: 30px;
+}
