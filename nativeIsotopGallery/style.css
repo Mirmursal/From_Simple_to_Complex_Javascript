@@ -1,0 +1,116 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+/* title begin */
+.title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.title h1{
+    font-weight: lighter;
+}
+.title h1 span{
+    color:#004d98;
+}
+.title h1 span:nth-child(2){
+    color:#a50044;
+}
+.title hr{
+    width:15%;
+    margin:auto;
+    border:1.2px solid #3cd27b;
+}
+/* title end */
+/* nav begin */
+.nav{
+    width: 70%;
+    text-align: left;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 3.5%;
+}
+.nav ul{
+    width:100%;
+    padding: 0;
+}
+.nav ul li{
+    background: #3cd27b;
+    padding: 10px;
+    float: left;
+    list-style: none;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    transition:all linear 0.15s;
+    border-right: 1px solid #26a45b!important;
+}
+.nav ul li:nth-child(1){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.nav ul li:nth-child(6){
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.active{
+    background: #26a45b!important;  
+}
+
+/* nav end */
+.clearFix{
+    clear:both;
+}
+/* content begin */
+.content{
+    width:100%;
+    min-height: 700px;
+    margin-top: 20px;
+}
+.content .item{
+    width: 23%;
+    float: left;
+    height: 200px;
+    margin-right: 2%;
+    margin-bottom: 2.5%;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
+    transition:all ease 0.3s;
+    position: relative;
+}
+.content .item:hover{
+    filter:none;
+}
+/* .content .item:nth-child(4n){
+    margin-right: 0!important;
+} */
+/* item position begin */
+.item .itemPosition{
+    position: absolute;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    padding: 13px 20px;
+    border-bottom-right-radius: 5px;
+}
+.item .item-desc{
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
+    padding: 6px;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    box-sizing: border-box;
+}
+/* item position end */
+/* content end */
